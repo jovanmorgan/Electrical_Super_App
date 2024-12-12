@@ -1,0 +1,118 @@
+.content2 {
+    border-radius: 50px;
+    background-color: #ffffff;
+    /* Atur warna latar belakang sesuai kebutuhan */
+    padding: 50px;
+    width: 100%;
+    /* height: 100pc; */
+    margin-top: 50px;
+    /* Atur padding sesuai kebutuhan */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    /* Atur bayangan (optional) */
+    box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.452);
+}
+
+
+.table-responsive {
+
+    /* width: 79%; */
+    max-height: 500px;
+    /* Ganti dengan tinggi maksimal yang Anda inginkan */
+    overflow-y: auto;
+}
+
+table {
+    width: 30px;
+    /* Sesuaikan dengan lebar yang Anda inginkan */
+    margin: 0 auto;
+    /* Untuk membuat tabel berada di tengah */
+}
+
+/* Mengatur lebar kolom */
+th,
+td {
+    max-width: 150px;
+    /* Sesuaikan dengan lebar maksimal kolom */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* Menambahkan elipsis jika teks terlalu panjang */
+}
+
+.gbr {
+
+    border: 2px solid #FFA500;
+    /* Border oranye */
+    border-radius: 10px;
+    transition: .5s all;
+    position: relative;
+    left: 20px;
+}
+
+.gbr:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    /* Efek shadow saat hover */
+    transform: scale(1.05);
+    /* Border oranye */
+}
+
+.makanan {
+    color: #FFA500;
+    /* Warna oranye */
+    font-weight: 700;
+    /* Teks menjadi tebal */
+}
+
+
+
+body {
+    background-color: #FF6B6B;
+    /* Warna merah muda */
+}
+
+.tp {
+    margin-left: 21.8pc;
+}
+
+.btn {
+    border-radius: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: .5s all;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    /* Efek shadow saat hover */
+    transform: scale(1.05);
+}
+
+
+
+
+
+.alert {
+    flex: 1;
+    /* Elemen .nama akan meratakan lebar */
+    height: 80px;
+    background-color: #fff;
+    border: 2px solid #92909044;
+    color: #000;
+    /* Border berwarna hitam */
+    border-radius: 50px;
+    font-size: 1.8pc;
+    padding: 15px;
+    transition: 0.5s all, border 0.2s;
+    /* Efek hover */
+}
+
+
+.alert:hover {
+    box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.3);
+    /* Efek shadow saat hover */
+    transform: scale(1.05);
+    background-color: #FFA500;
+    color: #FFFFFF;
+    /* Membesarkan elemen saat hover */
+    border: 2px solid #ffffff;
+}

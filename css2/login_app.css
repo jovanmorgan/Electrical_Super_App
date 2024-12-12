@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+
+/* File style.css */
+
+
+.keregis {
+    color: #000;
+    text-decoration: none;
+}
+
+.keregis:hover {
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    /* Tengahankan container di tengah layar */
+}
+
+.form-control {
+    border-radius: 20px;
+    height: 45px;
+}
+
+.input-group-text {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.input-group-text {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.btn {
+    border-radius: 20px;
+    filter: drop-shadow(-2.5px 4.5px 3.6px rgba(0, 0, 0, 0.541));
+    transition: .3s;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    filter: drop-shadow(-5px 9px 3.6px rgba(0, 0, 0, 0.658));
+    transform: matrix(1.1, 0, 0, 1.1, 0, -5);
+    -ms-transform: matrix(1.1, 0, 0, 1.1, 0, -5);
+    -webkit-transform: matrix(1.1, 0, 0, 1.1, 0, -5);
+    -o-transform: matrix(1.1, 0, 0, 1.1, 0, -5);
+    -moz-transform: matrix(1.1, 0, 0, 1.1, 0, -5);
+    /* filter: drop-shadow(-5px 9px 1.6px var(--shadow1)); */
+}

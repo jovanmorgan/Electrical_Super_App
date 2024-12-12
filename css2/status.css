@@ -1,0 +1,38 @@
+    /* CSS untuk mengubah tampilan status pesanan menjadi tombol */
+    .status {
+        padding: 5px 10px;
+        /* Tambahkan padding sesuai keinginan Anda */
+        font-size: 14px;
+        /* Ubah ukuran teks sesuai keinginan Anda */
+        color: white;
+        /* Ubah warna teks menjadi putih atau sesuai keinginan Anda */
+        /* background-color: green; */
+        /* Ubah warna latar belakang sesuai keinginan Anda */
+        border: none;
+        /* Hapus border */
+        border-radius: 5px;
+        /* Tambahkan border-radius sesuai keinginan Anda */
+        text-align: center;
+    }
+
+    /* Tambahkan aturan CSS berdasarkan kelas status yang sesuai */
+    .status-success {
+        background-color: #28a745;
+        /* Warna latar belakang untuk status berhasil */
+        color: #fff;
+        /* Warna teks untuk status berhasil */
+    }
+
+    .status-warning {
+        background-color: #ffc107;
+        /* Warna latar belakang untuk status ditinjau */
+        color: #000;
+        /* Warna teks untuk status ditinjau */
+    }
+
+    .status-danger {
+        background-color: #dc3545;
+        /* Warna latar belakang untuk status gagal */
+        color: #fff;
+        /* Warna teks untuk status gagal */
+    }

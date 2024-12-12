@@ -1,0 +1,169 @@
+.alert {
+    flex: 1;
+    /* Elemen .nama akan meratakan lebar */
+    height: 80px;
+    background-color: #fff;
+    border: 2px solid #92909044;
+    color: #000;
+    /* Border berwarna hitam */
+    font-size: 1.8pc;
+    border-radius: 50px;
+    padding: 15px;
+    transition: 0.5s all, border 0.2s;
+    /* Efek hover */
+}
+
+
+.alert:hover {
+    box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.3);
+    /* Efek shadow saat hover */
+    transform: scale(1.05);
+    background-color: #FFA500;
+    color: #FFFFFF;
+    /* Membesarkan elemen saat hover */
+    border: 2px solid #ffffff;
+}
+
+.content2 {
+    border-radius: 50px;
+    background-color: #ffffff;
+    /* Atur warna latar belakang sesuai kebutuhan */
+    padding: 50px;
+    width: 100%;
+    /* height: 100pc; */
+    margin-top: 50px;
+    /* Atur padding sesuai kebutuhan */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Atur bayangan (optional) */
+}
+
+
+.table-responsive {
+
+    /* width: 79%; */
+    max-height: 500px;
+    /* Ganti dengan tinggi maksimal yang Anda inginkan */
+    overflow-y: auto;
+}
+
+table {
+    width: 30px;
+    /* Sesuaikan dengan lebar yang Anda inginkan */
+    margin: 0 auto;
+    /* Untuk membuat tabel berada di tengah */
+}
+
+/* Mengatur lebar kolom */
+th,
+td {
+    max-width: 150px;
+    /* Sesuaikan dengan lebar maksimal kolom */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* Menambahkan elipsis jika teks terlalu panjang */
+}
+
+.nama-container {
+    display: flex;
+    flex-direction: column;
+    /* Menggunakan flexbox dengan tata letak vertikal */
+    align-items: center;
+    /* Mengatur konten ke tengah secara horizontal */
+}
+
+.nama {
+    flex: 1;
+    /* Elemen .nama akan meratakan lebar */
+    height: 50px;
+    width: 62pc;
+    background-color: #fff;
+    border: 2px solid #92909044;
+    color: #000;
+    /* Border berwarna hitam */
+    border-radius: 50px;
+    padding: 15px;
+    transition: 0.5s all, border 0.2s;
+    /* Efek hover */
+
+}
+
+.modal .btn-close {
+    border: 2px solid #92909044;
+    border-radius: 50px;
+    color: #000;
+    background-color: #FFFFFF;
+    transition: .5s all;
+}
+
+.modal .btn-close:hover {
+    color: #FFFFFF;
+    background-color: #f0410c;
+    border: 2px solid #000;
+}
+
+.modal-header {
+    background-color: #ffc457;
+    /* Oranye */
+    color: #333333;
+    /* Warna teks gelap pada header */
+}
+
+.modal-body {
+    background-color: #FFEFDB;
+    /* Oranye muda */
+    color: #333333;
+    /* Warna teks gelap pada body */
+}
+
+.modal-content {
+    background-color: #FFEFDB;
+    /* Oranye muda */
+    color: #333333;
+    /* Warna teks gelap pada body */
+    border: none;
+}
+
+
+.makanan {
+    color: #FFA500;
+    /* Warna oranye */
+    font-weight: 700;
+    /* Teks menjadi tebal */
+}
+
+.gbr {
+    border: 2px solid #FFA500;
+    /* Border oranye */
+    border-radius: 10px;
+    transition: .5s all;
+}
+
+.gbr:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    /* Efek shadow saat hover */
+    transform: scale(1.05);
+    /* Border oranye */
+}
+
+.tp {
+    margin-left: 21.8pc;
+}
+
+.btn {
+    border-radius: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: .5s all;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    /* Efek shadow saat hover */
+    transform: scale(1.05);
+}
+
+.btl2 {
+    margin-top: 15px;
+    margin-right: 40px;
+}

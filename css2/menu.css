@@ -1,0 +1,174 @@
+.modal .btn-close {
+    border: 2px solid #92909044;
+    border-radius: 50px;
+    color: #000;
+    background-color: #FFFFFF;
+    transition: .5s all;
+}
+
+.modal .btn-close:hover {
+    color: #FFFFFF;
+    background-color: #f0410c;
+    border: 2px solid #000;
+}
+
+.modal-header {
+    background-color: #ffc457;
+    /* Oranye */
+    color: #333333;
+    /* Warna teks gelap pada header */
+}
+
+.modal-body {
+    background-color: #FFEFDB;
+    /* Oranye muda */
+    color: #333333;
+    /* Warna teks gelap pada body */
+}
+
+.modal-content {
+    background-color: #FFEFDB;
+    /* Oranye muda */
+    color: #333333;
+    /* Warna teks gelap pada body */
+    border: none;
+}
+
+
+
+/* body {
+    background-color: #B0E57C;
+} */
+
+div.card {
+    background: #ffffff;
+    display: inline-block;
+    margin: 0px;
+    max-width: 250px;
+    perspective: 1000;
+    position: relative;
+    text-align: left;
+    transition: all 0.3s 0s ease-in;
+    width: 300px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 1s all;
+    /* Menambahkan overflow: hidden */
+    z-index: 1;
+}
+
+div.card .gam {
+    z-index: 1;
+    overflow: hidden;
+}
+
+div.card .gam img {
+    max-width: 100%;
+    /* Menghapus max-width 300px */
+    z-index: 1;
+    transition: 1s all;
+}
+
+div.card:hover .gam img {
+    transform: scale(120%);
+    filter: brightness(87%);
+}
+
+div.card:hover {
+    transform: scale(1.05);
+    /* Menambahkan efek scale pada card */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.411);
+    /* Menambahkan shadow */
+}
+
+.purchase {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    z-index: 10;
+    top: 50px;
+    left: 65px;
+}
+
+.purchase ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    z-index: 1;
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: .5s;
+}
+
+div.card:hover .purchase ul {
+    transform: translateY(0px);
+    transform-origin: top;
+    opacity: 1;
+}
+
+div.card .purchase ul li:hover {
+    opacity: 1;
+    background-color: #fff;
+}
+
+.purchase li {
+    margin-right: 10px;
+}
+
+.purchase li {
+    background-color: #ffffff75;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    content: "";
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+    position: relative;
+    bottom: 30px;
+    right: 13px;
+}
+
+.purchase ul li i {
+    opacity: 0.5;
+    color: #01081f;
+    transform: scale(220%);
+    transition: all .3s;
+}
+
+.purchase ul li:hover i {
+    color: rgb(76, 158, 80);
+    opacity: 1;
+}
+
+.purchase .mata {
+    transform: scaleX(-1) scale(220%);
+    position: absolute;
+    bottom: 15.3px;
+    margin-left: -2.8px;
+}
+
+.purchase .info {
+    transform: scaleX(-1) scale(220%);
+    position: absolute;
+    bottom: 15.8px;
+    margin-left: -2.8px;
+}
+
+.purchase .keranjang {
+    transform: scaleX(-1) scale(220%);
+    position: absolute;
+    bottom: 14.5px;
+    margin-left: -2.8px;
+}
+
+.purchase .bagi {
+    transform: scaleX(-1) scale(220%);
+    position: absolute;
+    bottom: 15px;
+    margin-left: -1.5px;
+}

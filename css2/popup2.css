@@ -1,0 +1,36 @@
+.modal .btn-close {
+    border: 2px solid #92909044;
+    border-radius: 50px;
+    color: #000;
+    background-color: #FFFFFF;
+    transition: .5s all;
+}
+
+.modal .btn-close:hover {
+    color: #FFFFFF;
+    background-color: #f0410c;
+    border: 2px solid #000;
+}
+
+.modal-header {
+    background-color: #ffc457;
+    /* Oranye */
+    color: #333333;
+    /* Warna teks gelap pada header */
+
+}
+
+.modal-body {
+    background-color: #FFEFDB;
+    /* Oranye muda */
+    color: #333333;
+    /* Warna teks gelap pada body */
+}
+
+.modal-content {
+    background-color: #FFEFDB;
+    /* Oranye muda */
+    color: #333333;
+    /* Warna teks gelap pada body */
+    border: none;
+}

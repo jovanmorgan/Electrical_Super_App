@@ -1,0 +1,86 @@
+body {
+    background-color: #FFFFFF;
+}
+
+/* Pop-up Style */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.btn-close {
+    border: 2px solid #000000fd;
+    border-radius: 50px;
+    color: #000;
+    background-color: #FFFFFF;
+    transition: .5s all;
+    padding: 15px;
+    opacity: 1;
+    filter: drop-shadow(-2.5px 4.5px 3.6px rgba(0, 0, 0, 0.658));
+    display: flex;
+    justify-content: flex-end;
+    /* Menempatkan tombol di pojok kanan atas */
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+}
+
+.btn-close:hover {
+    color: #FFFFFF;
+    background-color: #fa2904;
+    border: 2px solid #000;
+    opacity: 1;
+}
+
+.notif {
+    max-width: 8pc;
+    position: relative;
+    bottom: 40px;
+}
+
+.naik {
+    position: relative;
+    bottom: 30px;
+}
+
+@media screen and (max-width: 995px) {
+    .modal-content {
+        border-radius: 30px;
+        /* margin-top: 100px; */
+    }
+}
+
+@media screen and (max-width: 583px) {
+
+    .modal-content {
+        border-radius: 30px;
+        /* margin-top: 100px; */
+    }
+
+    .btn-close {
+        position: relative;
+        bottom: 15px;
+        left: 0px;
+        padding: 8px;
+    }
+}

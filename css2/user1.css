@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,500&display=swap');
+
+:root {
+    --bagian2: #F2FDF2;
+    /* Latar belakang hijau muda */
+    --text: #4CAF50;
+}
+
+body.dark {
+    --body-color: #18191A;
+    --nav-color: #242526;
+}
+
+td .gbr {
+    transition: transform 0.5s;
+    /* Efek transisi */
+    border: 2px solid #3498db;
+    /* Warna border biru */
+    box-shadow: 3 4px 8px rgba(0, 0, 0, 0.233);
+    /* Efek bayangan */
+    border-radius: 5px;
+}
+
+td .gbr:hover {
+    transform: scale(1.1);
+    /* Memperbesar gambar saat dihover */
+    cursor: pointer;
+    /* Menampilkan cursor pointer saat dihover */
+    border: 2px solid #2980b9;
+    /* Warna border biru yang berbeda saat dihover */
+    box-shadow: 7 8px 16px rgba(0, 0, 0, 0.425);
+    /* Efek bayangan yang berbeda saat dihover */
+}
+
+.bagian2 {
+    /* margin-top: 30px; */
+    height: 46pc;
+    overflow: hidden;
+}
+
+.kolom1 {
+    position: relative;
+    bottom: 16pc;
+    left: 40pc;
+    width: 29pc;
+}
+
+.text0 {
+    /* Contoh penggunaan font Roboto */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.8pc;
+}
+
+.text1 {
+    /* Contoh penggunaan font Dancing Script */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3pc;
+}
+
+.text2 {
+    margin-top: 30px;
+    font-size: 1.4pc;
+    /* Contoh penggunaan font Montserrat */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gambar1 {
+    position: relative;
+    left: 4pc;
+    border-radius: 50%;
+    top: 8pc;
+    height: 30pc;
+    width: 30pc;
+    filter: drop-shadow(8px 8px 10px #000);
+    /* margin-right: 100px; */
+}
+
+.b1 {
+    width: 30pc;
+    height: 30pc;
+    transform: rotate(210deg);
+    position: relative;
+    bottom: 6pc;
+    left: 35pc;
+}
+
+.b2 {
+    width: 30pc;
+    height: 30pc;
+    position: absolute;
+    top: 72pc;
+    left: -250px;
+    /* bottom: 1pc; */
+}
+
+
+.bagian3 {
+    /* margin-top: 50px; */
+    /* margin-bottom: 510pc; */
+    height: 42pc;
+    background-color: #5cda62;
+}

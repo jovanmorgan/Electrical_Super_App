@@ -1,0 +1,39 @@
+        /* Mengubah warna latar belakang navbar */
+        .navbar {
+            background-color: white !important;
+        }
+
+        /* Mengubah warna teks pada navbar */
+        .navbar .navbar-text {
+            color: #000 !important;
+        }
+
+        /* Mengubah warna latar belakang navbar brand */
+        .navbar .navbar-brand {
+            background-color: white !important;
+        }
+
+        /* Mengubah warna latar belakang sidebar */
+        aside.left-sidebar {
+            background-color: white !important;
+        }
+
+        /* Mengubah warna latar belakang sidebar-nav */
+        #sidebarnav {
+            background: white !important;
+            color: #000 !important;
+        }
+
+        .sidebar-link {
+            background: white !important;
+            color: #000 !important;
+        }
+
+        .sidebar-link i {
+            color: #000 !important;
+        }
+
+        #navbarSupportedContent {
+            background: white !important;
+            color: #000000 !important;
+        }
